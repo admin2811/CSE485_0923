@@ -1,0 +1,130 @@
+.bar_menu {
+    width: 30%;
+    height: 6rem;
+    padding: 10px
+}
+
+.header {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.0099);
+    border-bottom: 1px solid white;
+    z-index: 5;
+}
+
+.Taskbar {
+    display: inline-block;
+    position: relative;
+    width: 1.6rem;
+}
+
+.Taskbar .line {
+    background: #000;
+    display: block;
+    height: 0.1875rem;
+    border-radius: 0.1875rem;
+    margin-top: 0.375rem;
+    margin-bottom: 0.375rem;
+    margin-right: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.Taskbar .line:nth-child(3) {
+    width: 0.9375rem;
+}
+
+.Taskbar:hover {
+    cursor: pointer;
+}
+
+.Taskbar:hover .line:nth-child(3) {
+    width: 1.6rem;
+}
+
+.form-searchs {
+    width: 15rem;
+}
+
+.icon-search {
+    color: var(--primary);
+    background-color: white;
+    height: 2.2rem;
+    width: 2.2rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    border-start-start-radius: 0.3rem;
+    border-end-start-radius: 0.3rem;
+}
+
+.icon-search i {
+    margin-bottom: 0.3rem;
+}
+
+.form-searchs .form-control {
+    border-radius: 0;
+    border: none;
+    border-end-end-radius: 0.3rem;
+    border-start-end-radius: 0.3rem;
+}
+
+.form-searchs .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.fix_point {
+    width: 70%;
+}
+
+.header_menu {
+    width: 70%;
+}
+
+.menu-right {
+    position: fixed;
+    right: 0;
+    top: 2rem;
+    height: 92%;
+    width: 4.5rem;
+}
+
+.userLogo {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-top: 1.5rem;
+    border: 3px solid var(--primary);
+    border-radius: 0.5rem;
+    position: relative;
+}
+.user{
+    width: 35px;
+    overflow: hidden;
+}
+
+.nav-nofications {
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color: var(--rgba-primary-1);
+}
+
+.tools {
+    height: 12rem;
+}
+
+.icon-Langagues {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+}
+
+.languages {
+    margin-bottom: 3rem;
+}
+.glass-header {
+    /* Màu nền glass với độ trong suốt */
+    backdrop-filter: blur(10px);
+    /* Hiệu ứng mờ nền */
+    /* Các thuộc tính khác cho header */
+}

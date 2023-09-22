@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+.container{
+    position:absolute;
+    top: 250px;
+    width: 100%;
+    left: 30px;
+}
+
+.filter{
+    width:60%; 
+    background: #fafafa;
+    padding: 40px;
+    border-radius: 10px;
+}
+.text{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--primary);
+    text-decoration: none;
+}
+.icon{
+    padding: 10px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.form-filter{
+    margin: 20px 0;
+    display: flex;
+    
+}
+.filter-form{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.button-filter{
+    background-color: var(--primary);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.button{
+    display: flex;
+    gap: 10px;
+}
+.button-clear{
+    color: var(--primary);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid var(--primary);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}

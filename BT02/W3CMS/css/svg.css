@@ -1,0 +1,26 @@
+html{
+    background-color: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ellipse {
+    z-index: -2;
+    position:relative;
+    height: 100%;
+    padding: 0;
+}
+
+.green-line {
+    position: absolute;
+    top:-5px;
+    right: 0;
+    stroke: green;
+    stroke-width: 2px;
+}
+
+.red-line { 
+    position: absolute;
+    stroke: red;
+    right: 0;
+    bottom: 100%;
+}

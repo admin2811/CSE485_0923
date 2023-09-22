@@ -1,0 +1,101 @@
+:root {
+        --body-color: #f2f4f8;
+            --sidebar-color: #FFF;
+            --primary-color-light: #F6F5FF;
+            --toggler-color: #DDD;
+            --text-color: #707070;
+            --rgba-secondary-1: rgba(76, 188, 154, 0.1);
+        
+            --secondary: #4CBC9A;
+        
+            --secondary-dark: #3a9b7e;
+        
+            /*   Transition */
+            --tran-03: all 0.2 ease;
+            --tran-03: all 0.3 ease;
+            --tran-04: all 0.4 ease;
+            --tran-05: all 0.5 ease;
+    --primary: #FF6A59;
+    --bs-blue: #5e72e4;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #e83e8c;
+    --bs-red: #EE3232;
+    --bs-orange: #ff9900;
+    --bs-yellow: #FFFA6F;
+    --bs-green: #297F00;
+    --bs-teal: #20c997;
+    --bs-cyan: #3065D0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #FF6A59;
+    --bs-secondary: #4CBC9A;
+    --bs-success: #56c760;
+    --bs-info: #58bad7;
+    --bs-warning: #f0a901;
+    --bs-danger: #f75a5b;
+    --bs-light: #c8c8c8;
+    --bs-dark: #6e6e6e;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --primary: #FF6A59;
+    --secondary: #4CBC9A;
+    --secondary-dark: #3a9b7e;
+    --primary-hover: #ff3c26;
+    --primary-dark: #bf1400;
+    --rgba-primary-1: rgba(255, 106, 89, 0.1);
+    --rgba-primary-2: rgba(255, 106, 89, 0.2);
+    --rgba-primary-3: rgba(255, 106, 89, 0.3);
+    --rgba-primary-4: rgba(255, 106, 89, 0.4);
+    --rgba-primary-5: rgba(255, 106, 89, 0.5);
+    --rgba-primary-6: rgba(255, 106, 89, 0.6);
+    --rgba-primary-7: rgba(255, 106, 89, 0.7);
+    --rgba-primary-8: rgba(255, 106, 89, 0.8);
+    --rgba-primary-9: rgba(255, 106, 89, 0.9);
+    --rgba-secondary-1: rgba(76, 188, 154, 0.1);
+    --rgba-secondary-2: rgba(76, 188, 154, 0.2);
+    --rgba-secondary-3: rgba(76, 188, 154, 0.3);
+    --rgba-secondary-4: rgba(76, 188, 154, 0.4);
+    --rgba-secondary-5: rgba(76, 188, 154, 0.5);
+    --rgba-secondary-6: rgba(76, 188, 154, 0.6);
+    --rgba-secondary-7: rgba(76, 188, 154, 0.7);
+    --rgba-secondary-8: rgba(76, 188, 154, 0.8);
+    --rgba-secondary-9: rgba(76, 188, 154, 0.9);
+    --font-family-base: Roboto, sans-serif;
+    --font-family-title: Roboto, sans-serif;
+    --title: #374557;
+}
+
+:root {
+    --primary: #FF6A59;
+    --secondary: #4CBC9A;
+    --secondary-dark: #3a9b7e;
+    --primary-hover: #ff3c26;
+    --primary-dark: #bf1400;
+    --rgba-primary-1: rgba(255, 106, 89, 0.1);
+    --rgba-primary-2: rgba(255, 106, 89, 0.2);
+    --rgba-primary-3: rgba(255, 106, 89, 0.3);
+    --rgba-primary-4: rgba(255, 106, 89, 0.4);
+    --rgba-primary-5: rgba(255, 106, 89, 0.5);
+    --rgba-primary-6: rgba(255, 106, 89, 0.6);
+    --rgba-primary-7: rgba(255, 106, 89, 0.7);
+    --rgba-primary-8: rgba(255, 106, 89, 0.8);
+    --rgba-primary-9: rgba(255, 106, 89, 0.9);
+    --rgba-secondary-1: rgba(76, 188, 154, 0.1);
+    --rgba-secondary-2: rgba(76, 188, 154, 0.2);
+    --rgba-secondary-3: rgba(76, 188, 154, 0.3);
+    --rgba-secondary-4: rgba(76, 188, 154, 0.4);
+    --rgba-secondary-5: rgba(76, 188, 154, 0.5);
+    --rgba-secondary-6: rgba(76, 188, 154, 0.6);
+    --rgba-secondary-7: rgba(76, 188, 154, 0.7);
+    --rgba-secondary-8: rgba(76, 188, 154, 0.8);
+    --rgba-secondary-9: rgba(76, 188, 154, 0.9);
+    --font-family-base: Roboto, sans-serif;
+    --font-family-title: Roboto, sans-serif;
+    --title: #374557;
+}
+
+.offset-md-2 {
+    padding: 0rem 3rem;
+}
