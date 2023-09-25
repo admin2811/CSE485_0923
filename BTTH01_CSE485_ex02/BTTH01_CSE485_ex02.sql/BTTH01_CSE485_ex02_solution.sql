@@ -7,6 +7,7 @@ INSERT INTO baiviet(ma_bviet,tieude,ten_bhat,ma_tloai,tomtat,noidung,ma_tgia,nga
 INSERT INTO baiviet(ma_bviet,tieude,ten_bhat,ma_tloai,tomtat,noidung,ma_tgia,ngayviet,hinhanh) VALUES
 (9,'yeu','co yeu chu', 4, 'tom tat 1', 'noi dung 1', 3, NOW(),null);
 */
+ALTER TABLE theloai COLUMN ma_tloai INT AUTO_INCREMENT;
 /*Cau 1*/
 SELECT baiviet.ma_bviet, baiviet.tieude, baiviet.ten_bhat
 FROM baiviet
