@@ -12,7 +12,7 @@ ALTER TABLE theloai COLUMN ma_tloai INT AUTO_INCREMENT;
 SELECT baiviet.ma_bviet, baiviet.tieude, baiviet.ten_bhat
 FROM baiviet
 INNER JOIN theloai ON baiviet.ma_tloai = theloai.ma_tloai
-WHERE theloai.ten_tloai = "Nhac tru tinh";
+WHERE theloai.ten_tloai = "Nhac tru tinh";S
 /*Cau 2*/
 SELECT baiviet.ma_bviet, baiviet.tieude, baiviet.ten_bhat, baiviet.tomtat, baiviet.noidung
 FROM baiviet
@@ -103,3 +103,4 @@ CREATE TABLE USER (
 );
 
 SELECT *FROM theloai
+	
